@@ -7,7 +7,7 @@ export function KsMenu() {
             <div className="flex gap-4 items-center">
                 <Logo
                     alt="team-logo"
-                    src="/static/ks-logo.png"
+                    src="/ks-logo.png"
                     width={120}
                     className="rounded-full bg-white p-2"
                 />

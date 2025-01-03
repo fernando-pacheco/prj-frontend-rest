@@ -25,13 +25,13 @@ export function AuthBase({ children }: AuthBaseProps) {
             <div className="flex flex-1 justify-center h-screen w-full items-center">
                 <img
                     alt="img-fundo"
-                    src="static/fundo-login.png"
+                    src="/fundo-login.png"
                     className="absolute bottom-8 right-[500px] z-10"
                     width={350}
                 />
                 <img
                     alt="img-fundo1"
-                    src="static/fundo-login1.png"
+                    src="/fundo-login1.png"
                     className="absolute top-20 right-28"
                     width={800}
                 />

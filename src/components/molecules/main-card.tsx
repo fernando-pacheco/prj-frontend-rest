@@ -12,7 +12,7 @@ export function MainCard() {
             <div className="relative flex justify-center col-span-2 items-center bg-zinc-200 rounded-lg overflow-hidden">
                 <img
                     alt="greeting-img"
-                    src="static/greetings-bg.png"
+                    src="/greetings-bg.png"
                     className="rounded-lg object-cover w-full h-full"
                 />
                 <div className="absolute inset-16 flex flex-col justify-between items-start">
@@ -58,7 +58,7 @@ export function MainCard() {
                 <div className="flex w-full max-w-[300px] flex-1">
                     <img
                         alt="hb"
-                        src="static/burger.png"
+                        src="/burger.png"
                         className="relative w-full h-full object-cover pb-10 -top-4"
                     />
                     <div className="absolute inset-4 flex flex-col items-center justify-end gap-4 mb-6">

@@ -7,7 +7,7 @@ export function HeaderBase() {
     return (
         <div className="flex space-x-6 items-center">
             <button onClick={() => navigate("/")}>
-                <Logo alt="team-logo" src="static/ks-logo.png" size="md" />
+                <Logo alt="team-logo" src="/ks-logo.png" size="md" />
             </button>
             <div>Restaurantes</div>
             <div>Seja Parceiro</div>
