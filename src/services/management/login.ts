@@ -1,5 +1,5 @@
 import { management } from "@/api/management"
-import { LoginProps } from "../interface/login"
+import { LoginProps } from "../../interfaces/login"
 import { AxiosError } from "axios"
 
 export class LoginService {

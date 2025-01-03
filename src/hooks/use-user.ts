@@ -1,4 +1,4 @@
-import { UsuarioInfoService } from "@/service/usuario-info"
+import { UsuarioInfoService } from "@/services/management/usuario-info"
 import { AxiosResponse } from "axios"
 import { useEffect, useState } from "react"
 

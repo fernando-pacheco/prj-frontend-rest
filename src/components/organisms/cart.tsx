@@ -1,5 +1,5 @@
 import { cart } from "@/utils/cart"
-import { ProductProps } from "@/interface/product"
+import { ProductProps } from "@/interfaces/product"
 import { CartItem } from "../molecules/cart-item"
 import { priceFormat } from "@/utils/price-format"
 import { Separator } from "../atoms/separator"

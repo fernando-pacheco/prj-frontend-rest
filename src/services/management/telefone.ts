@@ -1,5 +1,5 @@
 import { management } from "@/api/management"
-import { TelefoneRegisterProps } from "../interface/telefone"
+import { TelefoneRegisterProps } from "../../interfaces/telefone"
 import { AxiosError } from "axios"
 
 export class TelefoneService {

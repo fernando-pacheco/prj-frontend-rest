@@ -1,4 +1,4 @@
-import { ProductItemProps, ProductProps } from "@/interface/product"
+import { ProductItemProps, ProductProps } from "@/interfaces/product"
 import { cart } from "@/utils/cart"
 import { ChevronDownCircle, Minus, Plus, ShoppingCart } from "lucide-react"
 import { MouseEvent, useState } from "react"

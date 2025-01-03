@@ -7,7 +7,7 @@ import { Checkbox } from "@/components/atoms/checkbox"
 import { FormAuthBase } from "@/components/templates/form-auth-base"
 import { setupToast } from "@/utils/setup-toast"
 import { AxiosResponse } from "axios"
-import { LoginService } from "@/service/login"
+import { LoginService } from "@/services/management/login"
 import { setToken } from "@/utils/token"
 import { LogInIcon } from "lucide-react"
 

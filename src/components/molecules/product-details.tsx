@@ -1,4 +1,4 @@
-import { ProductItemProps } from "@/interface/product"
+import { ProductItemProps } from "@/interfaces/product"
 
 export function ProductDetails({ product }: ProductItemProps) {
     return (

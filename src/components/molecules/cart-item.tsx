@@ -1,4 +1,4 @@
-import { ProductItemProps, ProductProps } from "@/interface/product"
+import { ProductItemProps, ProductProps } from "@/interfaces/product"
 import { Minus, Plus, X } from "lucide-react"
 import { Tooltip, TooltipContent, TooltipTrigger } from "../atoms/tooltip"
 import { priceFormat } from "@/utils/price-format"

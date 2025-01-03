@@ -1,4 +1,4 @@
-import { ProductItemProps } from "@/interface/product"
+import { ProductItemProps } from "@/interfaces/product"
 import { Dialog, DialogContent, DialogTrigger } from "../atoms/dialog"
 import { ProductDetails } from "../molecules/product-details"
 import { ProductItem } from "../molecules/product-item"

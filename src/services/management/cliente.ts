@@ -1,5 +1,5 @@
 import { management } from "@/api/management"
-import { RegisterClienteProps } from "../interface/register"
+import { RegisterClienteProps } from "../../interfaces/register"
 import { AxiosError } from "axios"
 
 export class ClienteService {

@@ -7,9 +7,9 @@ import { useNavigate } from "react-router-dom"
 import { FormAuthBase } from "@/components/templates/form-auth-base"
 import { setupToast } from "@/utils/setup-toast"
 import { AxiosResponse } from "axios"
-import { TelefoneService } from "@/service/telefone"
-import { ClienteService } from "@/service/cliente"
-import { LoginService } from "@/service/login"
+import { TelefoneService } from "@/services/management/telefone"
+import { ClienteService } from "@/services/management/cliente"
+import { LoginService } from "@/services/management/login"
 
 export function RegisterCliente() {
     const navigate = useNavigate()
@@ -35,7 +35,7 @@ export function RegisterCliente() {
     function formatBodyCliente(formData: FormData) {
         const senha = passwordValidate(
             formData.get("senha") as string,
-            formData.get("confirmacaoSenha") as string,
+            formData.get("confirmacaoSenha") as string
         )
 
         return {
@@ -61,7 +61,7 @@ export function RegisterCliente() {
 
     function handleRegisterResponse(
         formData: FormData,
-        response: AxiosResponse,
+        response: AxiosResponse
     ) {
         if (response.status === 201) {
             if (formData.get("numero")) {
