@@ -1,14 +1,14 @@
 import { getToken } from "@/utils/token"
 import axios from "axios"
 
-export const api = axios.create({
+export const management = axios.create({
     baseURL: "http://localhost:8000/",
     headers: {
         "Content-Type": "application/json",
     },
 })
 
-api.interceptors.request.use(
+management.interceptors.request.use(
     (config) => {
         const token = getToken()
         if (token) {
@@ -18,5 +18,5 @@ api.interceptors.request.use(
     },
     (error) => {
         return Promise.reject(error)
-    },
+    }
 )
