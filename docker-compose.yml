@@ -1,9 +1,9 @@
 services:
   frontend:
-    image: $IMAGE
+    image: frontend
     volumes:
-      - ./frontend:/app
+      - ./frontend/dist:/usr/share/nginx/html
     ports:
-      - "5173:5173"
+      - "5173:80"
     environment:
       - API_URL=$API_URL
