@@ -1,11 +1,11 @@
-import { api } from "@/api/index"
+import { management } from "@/api/management"
 import { LoginProps } from "../interface/login"
 import { AxiosError } from "axios"
 
 export class LoginService {
     async getTokenCliente(body: LoginProps) {
         try {
-            const response = await api.post("/token-cliente", body)
+            const response = await management.post("/token-cliente", body)
             return response
         } catch (error) {
             if (error instanceof AxiosError) {
@@ -18,7 +18,7 @@ export class LoginService {
 
     async getTokenFuncionario(body: LoginProps) {
         try {
-            const response = await api.post("/token-funcionario", body)
+            const response = await management.post("/token-funcionario", body)
             return response
         } catch (error) {
             if (error instanceof AxiosError) {

@@ -1,11 +1,11 @@
-import { api } from "@/api"
+import { management } from "@/api/management"
 import { RegisterClienteProps } from "../interface/register"
 import { AxiosError } from "axios"
 
 export class ClienteService {
     async clienteRegister(body: RegisterClienteProps) {
         try {
-            const response = await api.post("/cliente", body)
+            const response = await management.post("/cliente", body)
             return response
         } catch (error) {
             if (error instanceof AxiosError) {
